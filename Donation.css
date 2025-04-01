@@ -1,0 +1,255 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f8fa;
+    color: #333;
+}
+
+.header {
+    background-color: #e0eff5;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header-left {
+    display: flex;
+    align-items: center;
+    flex: 10; 
+}
+
+.header-logo {
+    width: 150px; 
+    height: auto; 
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: 1px solid #0b3a67;
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin-right: 5px; 
+}
+
+
+.header-center {
+    flex: 10; 
+    display: flex;
+    justify-content: center; 
+}
+
+
+.search-icon {
+    font-size: 20px;
+    color: #0b3a67;
+}
+
+
+.header-center span {
+    font-size: 20px;
+    color: #0b3a67;
+    font-weight: bold;
+}
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+}
+
+.header-right .sign-in {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #0b3a67;
+    font-weight: bold;
+}
+
+.header-right .sign-in:hover {
+    text-decoration: underline;
+}
+
+.share1-btn {
+    background-color: #063057;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.share2-btn {
+    background-color: #D8E7EE;
+    color: #063057;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.share1-btn:hover {
+    background-color: #063057;
+}
+.share2-btn:hover {
+    background-color: #ffffff;
+    
+}
+.donate-btn:hover {
+    background-color: #fdfeff;
+    color: aliceblue;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-left,
+    .header-center,
+    .header-right {
+        margin: 10px 0;
+    }
+}
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.fundraiser h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 60%;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.donation-box {
+    width: 35%;
+    background-color: #fff;
+    border: 3px solid #063057;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.raised-amount {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.donation-goal {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.donate-btn {
+    background-color: #D8E7EE;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 0;
+    width: 100%;
+}
+.donate-btn a {
+color: #063057;
+}
+.donate-btn a:hover {
+    color: #063057;
+    background-color: #fff;
+    }
+
+.share-btn {
+    background-color: #063057;
+}
+
+.share-btn:hover, .donate-btn:hover {
+    opacity: 0.9;
+    background-color: #063057;
+    color: #fff;
+}
+
+.organization {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.organization img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+}
+
+.organization p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.description p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9f0f7;
+    color: #555;
+    margin-top: 40px;
+    border-top: 1px solid #d1d5da;
+}
+a {
+    text-decoration :none;
+    color: #e9f0f7;
+}
+.bold {
+    font-weight: bold;
+}
+.donate-img img {
+    width: 250px;
+    height: 20px;
+}

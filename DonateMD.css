@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.left-section {
+    background-color: #e1edf7;
+    width: 30%;
+    padding: 40px;
+}
+
+.left-section h2 {
+    color: #1c3b5b;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.option-btn {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    background-color: #a7c8e4;
+    border: none;
+    border-radius: 10px;
+    color: #1c3b5b;
+    cursor: pointer;
+}
+.option-btnS {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    background-color: #c8d7e2;
+    border: none;
+    border-radius: 10px;
+    color: #1c3b5b;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background-color: #b8d1eb;
+}
+
+.left-section p {
+    color: #4a4a4a;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+
+.right-section {
+    width: 70%;
+    padding: 40px;
+    background-color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.form-group.checkbox label {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .right-section, .left-section {
+        width: 100%;
+    }
+}
+
+
+.form-group-inline {
+    display: flex;
+    gap: 15px;
+}
+
+.form-group-inline .form-group {
+    flex: 1;
+}
+
+
+.form-group-inline-small {
+    display: flex;
+    gap: 15px;
+}
+
+.form-group-inline-small .form-group {
+    flex: 1;
+}
+
+
+.form-group-inline-country {
+    display: flex;
+    gap: 15px;
+}
+
+.form-group-inline-country .form-group {
+    flex: 1;
+}

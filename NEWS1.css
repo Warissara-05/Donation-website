@@ -1,0 +1,152 @@
+/* General header styling */
+.header {
+    background-color: #e0eff5;
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center;
+    padding: 10px 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Left section with search input */
+  .header-left {
+    display: flex;
+    align-items: center;
+    flex: 10; /* Allow this section to take available space */
+  }
+  .header-logo {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    border: 1px solid #0b3a67;
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin-right: 5px; /* Space between input and icon */
+  }
+  
+  /* Center section for logo */
+  .header-center {
+    flex: 10; /* Allow this section to take available space */
+    display: flex;
+    justify-content: center; /* Center the logo */
+
+  }
+  
+  .search-icon {
+    font-size: 20px;
+    color: #0b3a67;
+  }
+  
+  /* Center logo */
+  .header-center span {
+    font-size: 20px;
+    color: #0b3a67;
+    font-weight: bold;
+  }
+  
+  /* Right section (Sign in and Share button) */
+  .header-right {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Allow this section to take available space */
+  }
+  
+  .header-right .sign-in {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #0b3a67;
+    font-weight: bold;
+  }
+  
+  .header-right .sign-in:hover {
+    text-decoration: underline;
+  }
+  
+  .share-btn {
+    background-color: #0b3a67;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .share-btn:hover {
+    background-color: #063057;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .header-left,
+    .header-center,
+    .header-right {
+      margin: 10px 0;
+    }
+  }
+  /* News Bar Styling */
+.news-bar {
+    background-color: #f0f8ff; /* Light background for news bar */
+    padding: 20px;
+    margin-top: 20px; /* Space below the header */
+    border: 1px solid #ccc; /* Optional border */
+  }
+  
+  /* Account Info */
+  .account-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Space below account info */
+  }
+  
+  .account-logo {
+    width: 50px; /* Size of the logo */
+    height: auto;
+    margin-right: 10px; /* Space between logo and account name */
+  }
+  
+  .account-name {
+    font-size: 18px;
+    color: #000000; /* Color for account name */
+  }
+  
+  /* News Topic */
+  .news-topic h2 {
+    font-size: 50px;
+    color: #000000; /* Color for news topic */
+    margin-bottom: 15px; /* Space below topic */
+  }
+  
+  /* News Content */
+  .news-content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  .big-picture {
+    width: 80%; /* Adjust width as needed */
+    max-width: 10000px; /* Optional max width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+    margin-bottom: 10px; /* Space below the picture */
+  }
+  
+  .description {
+    font-size: 25px;
+    color: #333; /* Text color for description */
+    line-height: 1.5; /* Line height for better readability */
+  }
+  
+  

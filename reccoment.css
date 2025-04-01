@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Use a modern font */
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Light background */
+  color: #333; /* Text color */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #e3f2fd; /* Header background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.description h3 {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 23%;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+}
+
+.header-center {
+  flex-grow: 1;
+  text-align: center; /* Center the logo */
+}
+
+.header-logo {
+  max-width: 150px; /* Adjust as necessary for your logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.news-content {
+  display: flex; /* Use flexbox to center */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+  margin: 20px; /* Add margin for spacing */
+}
+
+.big-picture {
+  width: 80%; /* Adjust width as necessary */
+  max-width: 800px; /* Optional max width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+  margin: 50px 0 10px 0; /* 50px top margin, 10px bottom margin */
+}
+
+.description {
+  margin-top: 10px; /* Space above description */
+  font-size: 1rem; /* Font size for description */
+  line-height: 1.6; /* Line height for better readability */
+  text-align: center; /* Center the description text */
+}
+
+.content {
+  padding: 20px;
+  margin-left: 10%;
+}
+
+.row {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Space between rows */
+}
+
+.text-container {
+  flex: 1; /* Take equal space */
+  padding-right: 10px; /* Space between text and image */
+}
+
+.image-container {
+  flex: 1; /* Take equal space */
+}
+
+.pic {
+  width: 70%; /* Adjusted to 70% for smaller images, change as needed */
+  max-width: 300px; /* Optional: Set a max width for the images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="DonateMD.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="left-section">
+            <h2>เลือกช่องทางบริจาค</h2>
+            <div class="button-group">
+                <button class="option-btn">QR Code</button>
+                <button class="option-btn">Banks</button>
+                <button class="option-btnS">Debit / Credit Card</button>
+            </div>
+            <p>เพราะยอดการบริจาคของท่านสามารถต่อชีวิตคนได้อีกหลายชีวิต...</p>
+        </div>
+
+        
+        <div class="right-section">
+            <form>
+                <!-- Email -->
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email address" required>
+                </div>
+        
+                <!-- First Name and Last Name in one row -->
+                <div class="form-group-inline">
+                    <div class="form-group">
+                        <input type="text" id="first-name" placeholder="First name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="last-name" placeholder="Last name" required>
+                    </div>
+                </div>
+        
+                <!-- Billing name checkbox -->
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="use-billing-name">
+                    <label for="use-billing-name">Use as billing name</label>
+                </div>
+        
+                <!-- Card Number -->
+                <div class="form-group">
+                    <input type="text" id="card-number" placeholder="Card number" required>
+                </div>
+        
+                <!-- MM/YY and CVV in one row -->
+                <div class="form-group-inline-small">
+                    <div class="form-group">
+                        <input type="text" id="expiry-date" placeholder="MM / YY" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="cvv" placeholder="CVV" required>
+                    </div>
+                </div>
+        
+                <!-- Name on Card -->
+                <div class="form-group">
+                    <input type="text" id="name-on-card" placeholder="Name on card" required>
+                </div>
+        
+                <!-- Country and Postal Code in one row -->
+                <div class="form-group-inline-country">
+                    <div class="form-group">
+                        <select id="country">
+                            <option value="Thailand">Thailand</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="postal-code" placeholder="Postal code" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
